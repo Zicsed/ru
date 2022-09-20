@@ -1,0 +1,89 @@
+body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+    background-color: #f1f1f1;
+    font-size: 16;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+.Avatar{
+    width: 250px;
+    border-radius: 28%;
+    box-shadow: 4px 4px 14px black;
+}
+.zos h4{
+    margin: 0;
+    color: darkcyan;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+letter-spacing: normal;
+word-spacing: normal;
+}
+a{
+  color: black;
+  text-decoration: none;  
+}
+a:hover{
+    text-decoration: underline;
+}
+.box{
+    max-width: 750px;
+    margin: auto;
+    display: block;
+
+}
+.card{
+    padding: 15 20;
+    background-color: #fff9dc;
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.social{
+    padding: 15px 20px;
+    background-color: #fff9dc;
+    border-radius: 15px;
+
+    box-shadow: 5px 5px 15px black;
+}
+.info{
+    margin-left: 20px;
+
+}
+.info-text h1{
+    display: flex;
+    margin-bottom: 0px;
+}
+.zos{
+    display: flex;
+
+}
+.g label{
+    display: block;
+    font-size: 14px;
+    color: darkcyan;
+}
+.g input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.g button{
+    padding: 20px 15px;
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.g button:hover{
+    opacity: 0.9;
+}
